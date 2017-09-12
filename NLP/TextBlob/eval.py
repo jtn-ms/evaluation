@@ -35,7 +35,7 @@ zen = TextBlob("Beautiful is better than ugly. "
 
 '''
 zen = TextBlob("见到你很高兴."
-               "我爱你."
+               "我不知道怎么说."
                "怎得不可思议.")
 '''
 print(zen.words)
@@ -90,7 +90,7 @@ en_blob = TextBlob(u'Simple is better than complex.')
 print(en_blob.translate(to='es'))
 chinese_blob = TextBlob(u"美丽优于丑陋")
 print(chinese_blob.translate(from_lang="zh-CN", to='en'))
-chinese_blob = TextBlob(u"我爱你")
+chinese_blob = TextBlob(u"你去哪儿？")
 print(chinese_blob.translate(from_lang="zh-CN", to='en'))
 b = TextBlob(u"بسيط هو أفضل من مجمع")
 print(b.detect_language())
