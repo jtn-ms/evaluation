@@ -15,12 +15,6 @@ text = "As a child, I kept thinking and dreaming how I could fly.\
         I am not sure how it will end.\
         It is my destiny."
 
-from textblob import TextBlob
-      
-blob = TextBlob(text)
-print(blob.sentences)
-
-
 from gensim.summarization import summarize
 from gensim.summarization import keywords
            
@@ -29,12 +23,3 @@ print (summarize(text, ratio=0.5))
 
 print ('Keywords:')
 print (keywords(text, ratio=0.3))
-
-''''''
-from textteaser import TextTeaser
-
-tt = TextTeaser()
-
-sentences = tt.summarize(title, text)
-for sentence in sentences:
-    print(sentence)
