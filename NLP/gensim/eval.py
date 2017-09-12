@@ -4,8 +4,6 @@ Created on Tue Sep 12 16:02:01 2017
 
 @author: Frank
 """
-
-title = "who am I?"
 text = "As a child, I kept thinking and dreaming how I could fly.\
         Now I am not young, but stilling dreaming about flying.\
         Some people say I should be realistic.\
