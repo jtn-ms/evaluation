@@ -3,6 +3,8 @@
 Created on Mon Sep  4 23:44:42 2017
 
 @author: Frank
+
+ex: python setup.py build
 """
 
 import sys
