@@ -5,7 +5,7 @@
     
 # Download Image with keyword
 
-    
+    $ scrapy crawl photo
 
 # Reference
 
